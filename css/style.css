@@ -1,0 +1,165 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+.content {
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.svg__back{
+    margin-right: 20px;
+    border: 1px solid #D0D5DD;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.content__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #191D23;
+
+}
+.avatar__block {
+    margin-right: 12px;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    background-color: #C4C4C4;
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.header__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.like svg{
+    cursor: pointer;
+}
+
+.like button{
+    background-color: transparent;
+    border-color: transparent;
+}
+.dislike button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dislike svg{
+    cursor: pointer;
+}
+
+.comment__block{
+    display: flex;
+    margin-top: 16px;
+}
+.comment__block-text {
+    width: 346px    ;
+    background-color: #F7F8F9;
+    border-radius: 10px;
+}
+.padding{
+    padding: 9px 15px 9px 8px;
+}
+.block__name {
+    color: #64748B;
+    ont-weight: 400;
+    font-size: 14px;
+}
+.burger__block{
+    background-color: #B8C0CC;
+    width: 5px;
+    height: 5px;
+    margin-left: 3px;
+    border-radius: 50%;
+}
+.burger{
+    cursor: pointer;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.block__text {
+    color: #191D23;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+    max-width: 330px;
+    word-break:break-all;
+}
+.estimation {
+    color: #64748B;
+    display: flex;
+    flex-direction: row;
+}
+.like svg:active {
+    transform: scale(0.95);
+}
+.dislike svg:active {
+    transform: scale(0.95);
+}
+
+.like svg.active{
+    fill: green;
+}
+.dislike svg.active{
+    fill: red;
+}
+
+.input__comments {
+    border: 1px solid #D0D5DD;
+    padding: 0px 12px;
+    width: 382px;
+    height: 40px;
+    border-radius: 4px;
+    color: #64748B;
+}
+.button__send {
+    cursor: pointer;
+    margin-left: 8px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: #047857;
+    border-radius: 6px;
+}
+.button__send:active {
+    transform: scale(0.95);
+    cursor: pointer;
+    margin-left: 8px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: #047857;
+    border-radius: 6px;
+}
+.button__send:hover {
+    opacity: 0.95;
+    cursor: pointer;
+    margin-left: 8px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: #047857;
+    border-radius: 6px;
+}
+
+.input__block{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+input {outline:none;}
